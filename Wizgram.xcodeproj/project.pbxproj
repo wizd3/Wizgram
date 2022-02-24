@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F6457838D533118886CEC9 /* Pods_Wizgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A15F0CBDE5DF36FCAC103C5 /* Pods_Wizgram.framework */; };
+		6D1FC0C6B70F4B9C8C19FD07 /* Pods_Wizgram_WizgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5C152CD7C350E97C2DB6D6 /* Pods_Wizgram_WizgramUITests.framework */; };
+		7EF82F93A3D70E803C758A90 /* Pods_WizgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EBEF1A6042C0C84A47D7F /* Pods_WizgramTests.framework */; };
+		927D573D27C7517B00AF9032 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D573C27C7517B00AF9032 /* LoginViewController.swift */; };
+		927D573F27C7518500AF9032 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D573E27C7518500AF9032 /* FeedViewController.swift */; };
+		927D574127C75AEE00AF9032 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D574027C75AEE00AF9032 /* PostViewController.swift */; };
+		927D574327C77B1200AF9032 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D574227C77B1200AF9032 /* PostCell.swift */; };
 		92AFAA1F27C71973006B5C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AFAA1E27C71973006B5C10 /* AppDelegate.swift */; };
 		92AFAA2127C71973006B5C10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AFAA2027C71973006B5C10 /* SceneDelegate.swift */; };
-		92AFAA2327C71973006B5C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AFAA2227C71973006B5C10 /* ViewController.swift */; };
 		92AFAA2627C71973006B5C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AFAA2427C71973006B5C10 /* Main.storyboard */; };
 		92AFAA2827C71974006B5C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFAA2727C71974006B5C10 /* Assets.xcassets */; };
 		92AFAA2B27C71974006B5C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AFAA2927C71974006B5C10 /* LaunchScreen.storyboard */; };
@@ -36,10 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		084925CC07C211830FE7CAC8 /* Pods-Wizgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizgram.debug.xcconfig"; path = "Target Support Files/Pods-Wizgram/Pods-Wizgram.debug.xcconfig"; sourceTree = "<group>"; };
+		140AA8E4655C6D362D7EC5F7 /* Pods-WizgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WizgramTests.debug.xcconfig"; path = "Target Support Files/Pods-WizgramTests/Pods-WizgramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		230FAAC0F7CEC9FC65F68B9D /* Pods-Wizgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizgram.release.xcconfig"; path = "Target Support Files/Pods-Wizgram/Pods-Wizgram.release.xcconfig"; sourceTree = "<group>"; };
+		3F2EBEF1A6042C0C84A47D7F /* Pods_WizgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WizgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5C152CD7C350E97C2DB6D6 /* Pods_Wizgram_WizgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wizgram_WizgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		859399E0768078B4DB979572 /* Pods-Wizgram-WizgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizgram-WizgramUITests.release.xcconfig"; path = "Target Support Files/Pods-Wizgram-WizgramUITests/Pods-Wizgram-WizgramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		927D573C27C7517B00AF9032 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		927D573E27C7518500AF9032 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		927D574027C75AEE00AF9032 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		927D574227C77B1200AF9032 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		92AFAA1B27C71972006B5C10 /* Wizgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wizgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AFAA1E27C71973006B5C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92AFAA2027C71973006B5C10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92AFAA2227C71973006B5C10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92AFAA2527C71973006B5C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92AFAA2727C71974006B5C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92AFAA2A27C71974006B5C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		92AFAA3B27C71974006B5C10 /* WizgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AFAA3F27C71974006B5C10 /* WizgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizgramUITests.swift; sourceTree = "<group>"; };
 		92AFAA4127C71974006B5C10 /* WizgramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizgramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96EB0811FD1821BB2D1254AD /* Pods-WizgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WizgramTests.release.xcconfig"; path = "Target Support Files/Pods-WizgramTests/Pods-WizgramTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A15F0CBDE5DF36FCAC103C5 /* Pods_Wizgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wizgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30C8F26B6A29E344C0CF677 /* Pods-Wizgram-WizgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizgram-WizgramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wizgram-WizgramUITests/Pods-Wizgram-WizgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F6457838D533118886CEC9 /* Pods_Wizgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF82F93A3D70E803C758A90 /* Pods_WizgramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D1FC0C6B70F4B9C8C19FD07 /* Pods_Wizgram_WizgramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6999C8A7672A850DE7358075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A15F0CBDE5DF36FCAC103C5 /* Pods_Wizgram.framework */,
+				4F5C152CD7C350E97C2DB6D6 /* Pods_Wizgram_WizgramUITests.framework */,
+				3F2EBEF1A6042C0C84A47D7F /* Pods_WizgramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DEC57F2E43B753D22F59B8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				084925CC07C211830FE7CAC8 /* Pods-Wizgram.debug.xcconfig */,
+				230FAAC0F7CEC9FC65F68B9D /* Pods-Wizgram.release.xcconfig */,
+				F30C8F26B6A29E344C0CF677 /* Pods-Wizgram-WizgramUITests.debug.xcconfig */,
+				859399E0768078B4DB979572 /* Pods-Wizgram-WizgramUITests.release.xcconfig */,
+				140AA8E4655C6D362D7EC5F7 /* Pods-WizgramTests.debug.xcconfig */,
+				96EB0811FD1821BB2D1254AD /* Pods-WizgramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		92AFAA1227C71972006B5C10 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				92AFAA3427C71974006B5C10 /* WizgramTests */,
 				92AFAA3E27C71974006B5C10 /* WizgramUITests */,
 				92AFAA1C27C71972006B5C10 /* Products */,
+				6DEC57F2E43B753D22F59B8B /* Pods */,
+				6999C8A7672A850DE7358075 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +147,14 @@
 			children = (
 				92AFAA1E27C71973006B5C10 /* AppDelegate.swift */,
 				92AFAA2027C71973006B5C10 /* SceneDelegate.swift */,
-				92AFAA2227C71973006B5C10 /* ViewController.swift */,
 				92AFAA2427C71973006B5C10 /* Main.storyboard */,
 				92AFAA2727C71974006B5C10 /* Assets.xcassets */,
 				92AFAA2927C71974006B5C10 /* LaunchScreen.storyboard */,
 				92AFAA2C27C71974006B5C10 /* Info.plist */,
+				927D573C27C7517B00AF9032 /* LoginViewController.swift */,
+				927D573E27C7518500AF9032 /* FeedViewController.swift */,
+				927D574027C75AEE00AF9032 /* PostViewController.swift */,
+				927D574227C77B1200AF9032 /* PostCell.swift */,
 			);
 			path = Wizgram;
 			sourceTree = "<group>";
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92AFAA4527C71974006B5C10 /* Build configuration list for PBXNativeTarget "Wizgram" */;
 			buildPhases = (
+				5C6F415FB227BD664C8BE095 /* [CP] Check Pods Manifest.lock */,
 				92AFAA1727C71972006B5C10 /* Sources */,
 				92AFAA1827C71972006B5C10 /* Frameworks */,
 				92AFAA1927C71972006B5C10 /* Resources */,
+				6436F4D02D5FBF0A2245135B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92AFAA4827C71974006B5C10 /* Build configuration list for PBXNativeTarget "WizgramTests" */;
 			buildPhases = (
+				1A3167E9DD5DCDAF51F604D5 /* [CP] Check Pods Manifest.lock */,
 				92AFAA2D27C71974006B5C10 /* Sources */,
 				92AFAA2E27C71974006B5C10 /* Frameworks */,
 				92AFAA2F27C71974006B5C10 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92AFAA4B27C71974006B5C10 /* Build configuration list for PBXNativeTarget "WizgramUITests" */;
 			buildPhases = (
+				8008F2B189626B92682F61C7 /* [CP] Check Pods Manifest.lock */,
 				92AFAA3727C71974006B5C10 /* Sources */,
 				92AFAA3827C71974006B5C10 /* Frameworks */,
 				92AFAA3927C71974006B5C10 /* Resources */,
+				05D8E4E2CB86AAF8350E5B87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +307,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D8E4E2CB86AAF8350E5B87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wizgram-WizgramUITests/Pods-Wizgram-WizgramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wizgram-WizgramUITests/Pods-Wizgram-WizgramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wizgram-WizgramUITests/Pods-Wizgram-WizgramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A3167E9DD5DCDAF51F604D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WizgramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6F415FB227BD664C8BE095 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wizgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6436F4D02D5FBF0A2245135B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wizgram/Pods-Wizgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wizgram/Pods-Wizgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wizgram/Pods-Wizgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8008F2B189626B92682F61C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wizgram-WizgramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92AFAA1727C71972006B5C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92AFAA2327C71973006B5C10 /* ViewController.swift in Sources */,
+				927D573D27C7517B00AF9032 /* LoginViewController.swift in Sources */,
 				92AFAA1F27C71973006B5C10 /* AppDelegate.swift in Sources */,
+				927D573F27C7518500AF9032 /* FeedViewController.swift in Sources */,
 				92AFAA2127C71973006B5C10 /* SceneDelegate.swift in Sources */,
+				927D574127C75AEE00AF9032 /* PostViewController.swift in Sources */,
+				927D574327C77B1200AF9032 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +594,7 @@
 		};
 		92AFAA4627C71974006B5C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084925CC07C211830FE7CAC8 /* Pods-Wizgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +623,7 @@
 		};
 		92AFAA4727C71974006B5C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230FAAC0F7CEC9FC65F68B9D /* Pods-Wizgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +652,7 @@
 		};
 		92AFAA4927C71974006B5C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140AA8E4655C6D362D7EC5F7 /* Pods-WizgramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +673,7 @@
 		};
 		92AFAA4A27C71974006B5C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EB0811FD1821BB2D1254AD /* Pods-WizgramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +694,7 @@
 		};
 		92AFAA4C27C71974006B5C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30C8F26B6A29E344C0CF677 /* Pods-Wizgram-WizgramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +713,7 @@
 		};
 		92AFAA4D27C71974006B5C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859399E0768078B4DB979572 /* Pods-Wizgram-WizgramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

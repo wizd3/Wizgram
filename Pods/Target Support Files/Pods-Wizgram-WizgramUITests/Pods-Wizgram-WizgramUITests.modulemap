@@ -1,0 +1,6 @@
+framework module Pods_Wizgram_WizgramUITests {
+  umbrella header "Pods-Wizgram-WizgramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
