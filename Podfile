@@ -9,6 +9,7 @@ target 'Wizgram' do
 
  	pod 'Parse'
  	pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
   target 'WizgramTests' do
     inherit! :search_paths

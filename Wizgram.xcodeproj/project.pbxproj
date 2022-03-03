@@ -14,6 +14,7 @@
 		927D573F27C7518500AF9032 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D573E27C7518500AF9032 /* FeedViewController.swift */; };
 		927D574127C75AEE00AF9032 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D574027C75AEE00AF9032 /* PostViewController.swift */; };
 		927D574327C77B1200AF9032 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D574227C77B1200AF9032 /* PostCell.swift */; };
+		928893E327D0927B00531D93 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928893E227D0927B00531D93 /* CommentCell.swift */; };
 		92AFAA1F27C71973006B5C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AFAA1E27C71973006B5C10 /* AppDelegate.swift */; };
 		92AFAA2127C71973006B5C10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AFAA2027C71973006B5C10 /* SceneDelegate.swift */; };
 		92AFAA2627C71973006B5C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AFAA2427C71973006B5C10 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		927D573E27C7518500AF9032 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		927D574027C75AEE00AF9032 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		927D574227C77B1200AF9032 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		928893E227D0927B00531D93 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		92AFAA1B27C71972006B5C10 /* Wizgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wizgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AFAA1E27C71973006B5C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92AFAA2027C71973006B5C10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				927D573E27C7518500AF9032 /* FeedViewController.swift */,
 				927D574027C75AEE00AF9032 /* PostViewController.swift */,
 				927D574227C77B1200AF9032 /* PostCell.swift */,
+				928893E227D0927B00531D93 /* CommentCell.swift */,
 			);
 			path = Wizgram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				92AFAA2127C71973006B5C10 /* SceneDelegate.swift in Sources */,
 				927D574127C75AEE00AF9032 /* PostViewController.swift in Sources */,
 				927D574327C77B1200AF9032 /* PostCell.swift in Sources */,
+				928893E327D0927B00531D93 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

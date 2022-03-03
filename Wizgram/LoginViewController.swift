@@ -9,13 +9,22 @@ import UIKit
 import Parse
 
 class LoginViewController: UIViewController {
-
+    
     @IBOutlet weak var UserNameTF: UITextField!
     @IBOutlet weak var PasswordTF: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+    }
+    
+    // If the last user didn't log out, log in to the same account:
+    override func viewDidAppear(_ animated: Bool) {
+        
+        if(UserDefaults.standard.bool(forKey: "User_LoggedIn") == true){
+            // Navigate to Profiles View Controller:
+            performSegue(withIdentifier: "loginSegue", sender: self)
+        }
         
     }
     
@@ -29,8 +38,13 @@ class LoginViewController: UIViewController {
             PFUser.logInWithUsername(inBackground: userName, password: pass) { user, error in
                 
                 if user != nil {
+                    
+                    // Remember that the user had logged in, so when open the app again it automatically log in the last user:
+                    UserDefaults.standard.set(true, forKey: "User_LoggedIn")
+                    
                     // If it is a successful login, navigate to the Feed screen:
                     self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                    
                 } else {
                     // If there is an error, print it:
                     print(error?.localizedDescription)
@@ -52,9 +66,12 @@ class LoginViewController: UIViewController {
         user.signUpInBackground { success, error in
             if success {
                 
+                // Remember that the user had logged in, so when open the app again it automatically log in the last user:
+                UserDefaults.standard.set(true, forKey: "User_LoggedIn")
+                
                 // If it is a successful signing up, navigate to the Feed screen:
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
-
+                
             } else {
                 // If there is an error, print it:
                 print(error?.localizedDescription)
